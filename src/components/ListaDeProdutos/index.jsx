@@ -1,8 +1,8 @@
-import { ArrowForward, Visibility } from '@mui/icons-material';
-import { Box, Button, Chip, Grid, Typography } from '@mui/material';
+import { ArrowForward } from '@mui/icons-material';
+import { Box, Button, Grid, Typography } from '@mui/material';
 import React from 'react';
 
-const ListaDeProdutos = () => {
+const ListaDeProdutos = (props) => {
     return(
         <>
             <Box
@@ -20,7 +20,8 @@ const ListaDeProdutos = () => {
                         fontSize:'24px', 
                         fontWeight:'bold', 
                         color:'#474747',
-                        lineHeight: '38px'}}>Lista de produtos</Typography>
+                        lineHeight: '38px'}}>{props.titulo}</Typography>
+                { props.visivel ?
                 <Button 
                     endIcon={<ArrowForward/>} 
                     sx={
@@ -31,6 +32,7 @@ const ListaDeProdutos = () => {
                                 backgroundColor:'transparent'
                             }
                         }}>Ver todos</Button>
+                : ''}
             </Box>
             <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
                 <Grid item sm={3} xs={12} sx={{border: '1px solid red'}}>produto1</Grid>
