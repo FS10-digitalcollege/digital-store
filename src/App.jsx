@@ -1,9 +1,9 @@
-import './App.css'
+import ListaDeProdutos from './components/ListaDeProdutos'
 
 function App() {
   return (
     <>
-      <h1>Mexi aqui</h1>
+      <ListaDeProdutos />
     </>
   )
 }
