@@ -1,11 +1,9 @@
-
-import './App.css'
-import Footer from './components/Footer'
+import ListaDeProdutos from './components/ListaDeProdutos'
 
 function App() {
   return (
     <>
-      <Footer/>
+      <ListaDeProdutos />
     </>
   )
 }
