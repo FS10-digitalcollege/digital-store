@@ -1,9 +1,10 @@
 import ListaDeProdutos from './components/ListaDeProdutos'
+import PageLayout from './layouts/PageLayout'
 
 function App() {
   return (
     <>
-      <ListaDeProdutos />
+      <PageLayout />
     </>
   )
 }
