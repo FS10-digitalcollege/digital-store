@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 242px 301px;
+}
+
+.container img,h1{
+    display: block;
+    padding-bottom:20px;
+}
+
+.card{
+    display: flex;
+}
+
+ 
+
+
+
+
+
