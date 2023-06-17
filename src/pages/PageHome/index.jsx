@@ -1,4 +1,6 @@
-const Home = () => {
+import './style.css'
+
+const PageHome = () => {
     return(
         <>
             <h1>Home</h1>
@@ -6,4 +8,4 @@ const Home = () => {
     );
 }
 
-export default Home;
+export default PageHome;

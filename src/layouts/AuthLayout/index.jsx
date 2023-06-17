@@ -1,1 +1,11 @@
-//layout base das paginas login, cadastro, recuperar senha
+import { Outlet } from 'react-router-dom'
+
+const AuthLayout = () => {
+    return(
+        <>
+            <Outlet />
+        </>
+    )
+}
+
+export default AuthLayout;

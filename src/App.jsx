@@ -1,10 +1,27 @@
-import ListaDeProdutos from './components/ListaDeProdutos'
-import PageLayout from './layouts/PageLayout'
+import Ways from "./services"
+import { useEffect } from "react";
+import { createContext } from "react"
+import { useState } from "react";
 
-function App() {
+export const AuthContext = createContext(null);
+
+const App = () => {
+
+  const [isLoggeg, setIsLoggeg] = useState(false);
+
+  function checkLogin(){
+    setIsLoggeg(JSON.parse(sessionStorage.getItem('isLoggeg')) || false);
+  }
+
+  useEffect(() => {
+    checkLogin();
+  }, [])
+
   return (
     <>
-      <PageLayout />
+      <AuthContext.Provider value={{isLoggeg, setIsLoggeg}}>
+        <Ways />
+      </AuthContext.Provider>
     </>
   )
 }
