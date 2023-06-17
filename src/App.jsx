@@ -1,10 +1,11 @@
-import ListaDeProdutos from './components/ListaDeProdutos'
-import PageLayout from './layouts/PageLayout'
+// import ListaDeProdutos from './components/ListaDeProdutos'
+// import PageLayout from './layouts/PageLayout'
+import ConclusaoDeCompra from "./pages/ConclusaoDeCompra"
 
 function App() {
   return (
     <>
-      <PageLayout />
+      <ConclusaoDeCompra></ConclusaoDeCompra>
     </>
   )
 }
