@@ -11,10 +11,14 @@ const ConclusaoDeCompra = () =>{
                 <img src="src\pages\ConclusaoDeCompra\assets\image.png" alt="compra realizada" />
                 <h1>Compra realizada com sucesso!</h1>
             </div>
-
+            
+        <div className='linha'></div>
         <CardInfo></CardInfo>
+        <div className='linha'></div>
         <CardInfo></CardInfo>
+        <div className='linha'></div>
         <CardInfo></CardInfo>
+        <div className='linha'></div>
 
         <div className='cardResumo'>
             <h4>Resumo de Compra</h4>

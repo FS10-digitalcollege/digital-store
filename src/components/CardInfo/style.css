@@ -11,6 +11,9 @@
     align-items: center;
     flex-direction: column;
     margin: 242px 301px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 10px;
 }
 
 .cardImg{
@@ -33,17 +36,23 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    border-top: 1px solid #cccccc;
-    border-bottom: 1px solid #cccccc;
-    padding: 5px 0;;
     width: 100%;
+    background-color: #ffffff;
+}
+
+.linha{
+    border: 1px solid #cccccc;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
 }
 
 .card p,span{
     display: inline-block;
-
+    
 }
-
 .card .info p{
     font-family: Inter;
     font-size: 14px;
@@ -51,6 +60,7 @@
     line-height: 22px;
     letter-spacing: 0.25px;
     text-align: center;
+   
 }
 
 .card .info span{
@@ -59,6 +69,7 @@
 
  .card .info,span{
     padding: 5px;
+
  }
 
  .cardResumo{
@@ -72,6 +83,7 @@
     padding: 15px 0;
     gap: 15px;
     align-items: center;
+
  }
 
  .cardResumo .cardResumoInfo img{
@@ -89,6 +101,7 @@
     letter-spacing: 0.75px;
     text-align: left;
     width: 30%;
+  
  }
 
 .cardFooter{
@@ -96,6 +109,10 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    background-color: #f9f2f2;
+    padding: 20px;
+    border-radius: 4px;
+    border: 1px;
 }
 
 .cardFooter div span{
@@ -114,6 +131,7 @@
     letter-spacing: 1px;
     text-align: right;
     color: #8f8f8f;
+   
 }
 
 .cardFooter div h2{
@@ -134,7 +152,7 @@ a{
     padding: 15px 0;
  }
 
- @media  {
+ @media screen {
     
  }
 
