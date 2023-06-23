@@ -9,11 +9,6 @@
     font-family: 'Inter', sans-serif;
 }
 
-body {
-  min-height: 100vh;
-  padding-bottom: 450px;
-}
-
 footer{
   bottom: 0;
   background-color: #1F1F1F;
@@ -31,10 +26,10 @@ footer a:hover{
 
 #fColunas{
   display: flex;
-  align-items: center;
   justify-content: center;  
   width: 100vw;
   height: 350px;
+  padding-top: 60px;
 }
 
 #fColuna1{

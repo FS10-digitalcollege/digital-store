@@ -4,6 +4,7 @@ import { useContext } from 'react';
 import { AuthContext } from '../App';
 import AuthLayout from '../layouts/AuthLayout';
 import PageHome from '../pages/PageHome';
+import Login from '../pages/Login';
 
 const Ways = () => {
 

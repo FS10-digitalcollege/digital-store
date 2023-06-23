@@ -10,7 +10,7 @@ const App = () => {
   const [isLoggeg, setIsLoggeg] = useState(false);
 
   function checkLogin(){
-    setIsLoggeg(JSON.parse(sessionStorage.getItem('isLoggeg')) || false);
+    setIsLoggeg(JSON.parse(sessionStorage.getItem('isLoggeg')) || true);
   }
 
   useEffect(() => {
