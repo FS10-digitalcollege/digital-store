@@ -1,10 +1,20 @@
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import styled from "styled-components";
 
 const Banners = () => {
 
     const [bannerActive, setBannerActive ] = useState(1);
+
+    useEffect(() => {
+        setInterval(() => {
+            if(bannerActive == 4){
+                setBannerActive(1);
+                return
+            }
+            setBannerActive(bannerActive + 1)
+        }, 1000)
+    }, [bannerActive])
 
     return(
         <>
