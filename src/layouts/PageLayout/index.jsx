@@ -5,9 +5,9 @@ import Carrinho from '../../components/Carrinho';
 const PageLayout = () => {
     return(
         <>
-            <Carrinho/>
-            {/* <Outlet />
-            <Footer /> */}
+            <span style={{display: 'flex', marginTop: '16px'}}>Aqui fica o componente da parte superior e depois vem o carrinho<Carrinho/></span>
+            <Outlet />
+            <Footer />
         </>
     )
 }
