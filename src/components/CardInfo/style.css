@@ -13,7 +13,7 @@
     margin: 242px 301px;
     background-color: #ffffff;
     border-radius: 5px;
-    padding: 10px;
+    padding: 10px 10px;
 }
 
 .cardImg{
@@ -21,15 +21,17 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 600px;
+    width: 400px;
     font-size: 22px;
     font-weight: bold;
     line-height: 36px;
     text-align: center;
+    background-color: #ffffff;
 }
 
 .cardImg img,h1{
     padding-bottom:20px;
+    background-color: #ffffff;
 }
 
 .card{
@@ -51,6 +53,7 @@
 
 .card p,span{
     display: inline-block;
+    background-color: #ffffff;
     
 }
 .card .info p{
@@ -60,21 +63,26 @@
     line-height: 22px;
     letter-spacing: 0.25px;
     text-align: center;
-   
+    background-color: #ffffff;
 }
 
 .card .info span{
     color: lightgray;
 }
 
+.card h4{
+    background-color: #ffffff;
+}
+
  .card .info,span{
     padding: 5px;
-
+    background-color: #ffffff;
  }
 
  .cardResumo{
     width: 100%;
     padding: 20px 0;
+    background-color: #ffffff;
  }
 
  .cardResumoInfo{
@@ -83,7 +91,11 @@
     padding: 15px 0;
     gap: 15px;
     align-items: center;
+    background-color: #ffffff;
+ }
 
+ .cardResumo h4{
+    background-color: #ffffff;
  }
 
  .cardResumo .cardResumoInfo img{
@@ -100,8 +112,8 @@
     line-height: 20px;
     letter-spacing: 0.75px;
     text-align: left;
-    width: 30%;
-  
+    width: 40%;
+    background-color: #ffffff;
  }
 
 .cardFooter{
@@ -109,7 +121,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    background-color: #f9f2f2;
+    background-color: rgba(246, 170, 28, 0.15);
     padding: 20px;
     border-radius: 4px;
     border: 1px;
@@ -122,6 +134,7 @@
     line-height: 38px;
     letter-spacing: 0.75px;
     text-align: center;
+    background-color: rgba(246, 170, 28, 0.15);
 }
 
 .cardFooter div p{
@@ -131,7 +144,18 @@
     letter-spacing: 1px;
     text-align: right;
     color: #8f8f8f;
+    background-color: rgba(246, 170, 28, 0.15);
    
+}
+
+.cardFooter h2{
+    background-color: rgba(246, 170, 28, 0.15);
+    
+}
+
+.cardFooter div{
+    background-color: rgba(246, 170, 28, 0.20);
+
 }
 
 .cardFooter div h2{
@@ -139,6 +163,7 @@
     letter-spacing: 0.75px;
     text-align: left;
     font-size: larger;
+    background-color: rgba(246, 170, 28, 0.15);
 }
 
 a{
@@ -150,12 +175,20 @@ a{
     color:#474747;
     text-decoration: underline;
     padding: 15px 0;
+    background-color: #ffffff;
+
  }
 
- @media screen {
+
+ @media (min-width: 768px) and (min-width: 1023px){
+    #container{
+        margin: 318px 400px;
+    }
+ }
+
+ @media screen and (max-width: 767px){
     
  }
-
 
 
 
