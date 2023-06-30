@@ -5,15 +5,21 @@
     text-decoration: none;
 }
 
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #container{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 242px 301px;
+    width: 838px;
     background-color: #ffffff;
     border-radius: 5px;
-    padding: 10px 10px;
+    margin: 0;
 }
 
 .cardImg{
@@ -22,7 +28,7 @@
     align-items: center;
     flex-direction: column;
     width: 400px;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
     line-height: 36px;
     text-align: center;
@@ -180,15 +186,38 @@ a{
  }
 
 
- @media (min-width: 768px) and (min-width: 1023px){
-    #container{
-        margin: 318px 400px;
-    }
- }
-
  @media screen and (max-width: 767px){
-    
- }
+    #container{
+        width: 90%;
+    }
+
+    .cardResumo .cardResumoInfo p{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.75px;
+    text-align: left;
+    width: 170px;
+    }
+
+    .cardFooter div{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        flex-direction: column;
+    }
+
+
+    .cardFooter div span,p{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0.75px;
+    text-align: center;
+
+    }
 
 
 
