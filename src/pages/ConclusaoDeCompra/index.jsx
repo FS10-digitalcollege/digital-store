@@ -3,7 +3,58 @@ import CardInfo from '../../components/CardInfo';
 import '../../components/CardInfo/style.css';
 
 
-const ConclusaoDeCompra = (props) =>{
+const ConclusaoDeCompra = () =>{
+    let card1 = [
+        {
+            nome: "Informações Pessoais",
+            titulo: "Nome",
+            texto: "Joao vitor"
+        },
+        {
+            titulo: "CPF",
+            texto: "000.000.000-00"
+        },
+        {
+            titulo: "Email",
+            texto: "jvitormajdnd@hotamil.com"
+        },
+        {
+            titulo: "Celular",
+            texto: "(00) 00000-0000"
+        }
+    ]
+    let card2 = [
+        {
+            nome: "Informações Pessoais",
+            titulo: "Endereço",
+            texto: "Rua expedicionarios, 1000"
+        },
+        {
+            titulo: "Bairro",
+            texto: "Bairro de Fatima"
+        },
+        {
+            titulo: "Cidade",
+            texto: "Fortaleza,CE"
+        },
+        {
+            titulo: "CEP",
+            texto: "00000-000"
+        }
+    ]
+    
+    let card3 = [
+        {
+            nome: "Informações Pessoais",
+            titulo: "Titular do Cartão",
+            texto: "Joao vitor"
+        },
+        {
+            titulo: "Final",
+            texto: "00*********"
+        }
+    ]
+
     return(
         <>
         <div id="container">
@@ -13,11 +64,11 @@ const ConclusaoDeCompra = (props) =>{
             </div>
             
         <div className='linha'></div>
-        <CardInfo></CardInfo>
+        <CardInfo itens={card1}></CardInfo>
         <div className='linha'></div>
-        <CardInfo></CardInfo>
+        <CardInfo itens={card2}></CardInfo>
         <div className='linha'></div>
-        <CardInfo></CardInfo>
+        <CardInfo itens={card3}></CardInfo>
         <div className='linha'></div>
 
         <div className='cardResumo'>
