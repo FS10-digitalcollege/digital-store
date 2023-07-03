@@ -64,11 +64,11 @@ const ConclusaoDeCompra = () =>{
             </div>
             
         <div className='linha'></div>
-        <CardInfo itens={card1}></CardInfo>
+        <CardInfo itens={card1} title="Informações Pessoais"></CardInfo>
         <div className='linha'></div>
-        <CardInfo itens={card2}></CardInfo>
+        <CardInfo itens={card2} title="Informações de Entrega"></CardInfo>
         <div className='linha'></div>
-        <CardInfo itens={card3}></CardInfo>
+        <CardInfo itens={card3} title="Informações de Pagamento"></CardInfo>
         <div className='linha'></div>
 
         <div className='cardResumo'>

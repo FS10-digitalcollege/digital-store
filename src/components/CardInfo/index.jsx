@@ -1,12 +1,12 @@
 import React from "react";
 import './style.css';
 
-const CardInfo = ({itens}) =>{
+const CardInfo = ({itens,title}) =>{
     return(
         <>
         <div className="card">
+            <h4>{title}</h4> 
                    {itens.map(item => (
-                        <h4>{item.nome}</h4>, 
                         <div className="info"><span>{item.titulo}</span><p>{item.texto}</p></div>
                     ))
                 }   
